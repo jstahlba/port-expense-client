@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>alert.unknown.error</key>
+	<dict>
+		<key>title</key>
+		<string>Error</string>
+		<key>message</key>
+		<string>An unknown error has occurred</string>
+		<key>cancelButton</key>
+		<string>Ok</string>
+	</dict>
+	<key>alert.notimplemented.error</key>
+	<dict>
+		<key>title</key>
+		<string>Error</string>
+		<key>message</key>
+		<string>This feature is not implemented yet</string>
+		<key>cancelButton</key>
+		<string>Ok</string>
+	</dict>
+	<key>arr.sort.options</key>
+	<array>
+		<string>Time: Newest</string>
+		<string>Time: Oldest</string>
+		<string>Category: A -&gt; Z</string>
+		<string>Category: Z -&gt; A</string>
+		<string>Description: A -&gt; Z</string>
+		<string>Description: Z -&gt; A</string>
+		<string>Amount: 0 -&gt; 9</string>
+		<string>Amount: 9 -&gt; 0</string>
+	</array>
+	<key>txt.error.amount.empty</key>
+	<string>Amount must be provided</string>
+	<key>txt.error.amount.format</key>
+	<string>The amount provided is not a valid number</string>
+	<key>txt.error.desc.empty</key>
+	<string>Description must be provided</string>
+	<key>txt.error.category.empty</key>
+	<string>Category must be provided</string>
+	<key>txt.error.category.length</key>
+	<string>Category can&apos;t be more than 255 characters</string>
+	<key>txt.error.subcategory.length</key>
+	<string>Sub Category can&apos;t be more than 255 characters</string>
+	<key>txt.error.date.empty</key>
+	<string>Date must be provided</string>
+	<key>txt.error.date.format</key>
+	<string>Date must be in MM/dd/yyyy format</string>
+</dict>
+</plist>
